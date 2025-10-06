@@ -30,7 +30,7 @@ horse-or-human-validation/
 ┗ humans/
 
 ## Dataset
-You can download the dataset from [this link](https://www.tensorflow.org/datasets/catalog/horse_or_human)
+You can download the dataset from https://www.tensorflow.org/datasets/catalog/horse_or_human
 and place it inside the project folder as:
 
 datasets/
