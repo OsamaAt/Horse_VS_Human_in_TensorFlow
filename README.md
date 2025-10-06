@@ -29,8 +29,13 @@ horse-or-human-validation/
 ┣ horses/
 ┗ humans/
 
-yaml
-Copy code
+## Dataset
+You can download the dataset from [this link](https://www.tensorflow.org/datasets/catalog/horse_or_human)
+and place it inside the project folder as:
+
+datasets/
+├── horse-or-human/
+└── horse-or-human-validation/
 
 Each folder should contain labeled images for training and validation.
 
@@ -48,7 +53,7 @@ pip install tensorflow matplotlib numpy
 Run the script:
 
 bash
-Copy code
+
 python horse_or_human_classifier.py
 To test a single image, update the img_path at the bottom of the script and re-run.
 
